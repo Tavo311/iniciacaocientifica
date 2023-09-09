@@ -1,27 +1,17 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: sans-serif ;
 }
-
-body {
+body{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background-color: rgb(30, 30, 46);
 }
-
-.center-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-}
-
-section {
+section{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,47 +20,45 @@ section {
     background: rgb(59, 44, 73);
     width: 500px;
 }
-
-section h2 {
+section h2{
     color: whitesmoke;
-    font-size: 2.5rem;
+    font-size: 2,5rem;
     margin: 2rem;
 }
-
-section form {
+section form{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-
-form label {
+form label{
     color: gray;
     font-size: 20px;
     margin-bottom: 6px;
 }
-
-form input,
-form textarea {
+form input{
     padding: 15px;
     outline: none;
     border: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 15px;
-    transition: all 0.5s;
+    transition: all 0,5s;
 }
-
-form input:focus,
-form textarea:focus {
+form input:focus{
     border-radius: 18px;
 }
-
-form textarea {
-    margin-bottom: 30px;
-    border-radius: 16px;
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom:30px;
+    transform: all 0.5s;
 }
-
-form button {
-    padding: 15px;
+form textarea{
+    border-radius: 18px;
+}
+form  button{
+    padding:15px;
     cursor: pointer;
     font-size: 16px;
     background: transparent;
@@ -79,9 +67,9 @@ form button {
     transition: all 1s;
     margin-bottom: 20px;
 }
-
-form button:hover {
+form button:hover{
     background-color: white;
     color: black;
     border-radius: 16px;
+    
 }
